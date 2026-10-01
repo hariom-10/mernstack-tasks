@@ -19,14 +19,15 @@
       <div class="username">
         <a href="#">Username</a>
       </div>
-      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <button class="menu-icon" type="button">☰</button>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </div>
     </nav>
-    <div class="mobile-menu" id="mobileMenu">
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">About Us</a>
-      <a href="#">Contact Us</a>
-    </div>
+
     <section class="hero">
       <div class="heroright">
         <h1 style="text-align: left">
@@ -46,10 +47,5 @@
         <img src="./image/laundry.png" alt="Laundry" />
       </div>
     </section>
-    <script>
-      function toggleMenu() {
-        document.getElementById("mobileMenu").classList.toggle("active");
-      }
-    </script>
   </body>
 </html>
